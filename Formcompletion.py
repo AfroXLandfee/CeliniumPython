@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-Path = "/Users/pavlosstamos/Desktop/Selinium/chromedriver"
+Path = "/Users/pavlosstamos/GitHub/CeliniumPython/chromedriver"
 driver = webdriver.Chrome(Path)
 
 driver.get("https://techwithtim.net")
