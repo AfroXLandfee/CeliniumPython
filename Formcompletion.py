@@ -14,6 +14,8 @@ print(driver.title)
 
 #searchbox
 search = driver.find_element_by_name("s")
+#it will clear the remainders in the searchbar
+search.clear()
 #write test
 search.send_keys("test")
 #send enter
